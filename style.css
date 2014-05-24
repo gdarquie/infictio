@@ -1,0 +1,142 @@
+/*Général*/
+
+body {background-color:#fff;font-family: 'Junge', serif;}
+footer{font-family: 'Open Sans', 'sans-serif';text-align:center;position:fixed;bottom:0px;padding:20px 10px 10px 10px;width:100%;font-size:0.9em;background:white;border-top:lightgrey 1px solid;}
+#mydiv{background-color:#fff;}
+#titre{font-size:2.2em;}
+.subtext{font-style:italic;font-size:1em;}
+.highspace{margin-top: 180px;font-size:2.7em;}
+.container{padding-bottom:80px;}
+h2{font-family: 'Open Sans', 'sans-serif';}
+h3{font-family: 'Open Sans', 'sans-serif';}
+
+/*Classes*/
+
+.citation{text-align:right;font-size:0.9em;margin-top:50px;font-style:oblique;}
+.vcentre{height:40%;margin-top:30%;}
+
+.mtexte{margin-top:200px;}
+.nlien{cursor:pointer;}
+
+.cache{display:none;}
+.break{padding-top:20px;}
+.italic{font-style:oblique;}
+.rouge{color:red;font-size:2em;}
+.slien{font-weight:bold; cursor:pointer;}
+.mhaut{margin-top:50px;}
+.m2haut{margin-top:200px;}
+.m3haut{margin-top:350px;}
+
+.white{color:white;}
+.haut{margin-top:10%;}
+
+.suite{margin-top:5em;cursor: pointer;}
+
+
+/* Accueil */
+
+/*accueil est le id du body pour toute le récit */
+
+#titreAccueil{min-width:400px;text-align:center;}
+#imageAccueil{background-image:url("img/accueil2.png");background-repeat:no-repeat;height:250px;margin-top:10%;margin-left:5%;background-position: center;}
+#depart{font-style: italic;line-height:0.8em;margin-top:12%;margin-bottom:10%;}
+.depart{cursor:pointer;}
+
+#bataille{margin-top:10%;}
+#accueil {font-size: 1.8em;line-height: normal;}
+#accueil h1{font-size: 5.5em;font-family: 'Unlock', 'Aclonica', 'cursive';}
+#accueil a{text-decoration:none; color: black;}
+
+#genre{font-size:2.5em;text-align:left;padding-left:30px;color:lightgrey;text-align:left;}
+#auteurs{font-size:1.8em;text-align:left;padding-left:30px;color:grey;text-align:left;}
+
+.lettre{width:300px;font-family:courier;margin-top:100px;cursor:pointer;}
+tt{display:none;font-size:2.6em;position:fixed; min-height:40px;top:5px;background-color:black; color:white;}
+
+/*#auteur{text-align:right;}*/
+
+
+/*Intro*/
+.pageIntro{margin-top:50px;min-height: 400px;}
+.intro{margin-top:50px;cursor:pointer;}
+
+#intro1{width:20%;position:fixed; top: 15%;margin-left:12%;min-width:150px;}
+#intro01{width:20%;position:fixed; top: 15%;margin-left:36%;min-width:150px;font-size:2em;}
+
+#intro2{width:25%;position:fixed; top: 33%;margin-left:25%;min-width:150px;}
+#intro02{width:22%;position:fixed; top: 35%;margin-left:55%;min-width:150px;font-size:2.3em;}
+
+#intro3{width:22%;position:fixed; top: 52%;margin-left:21%;min-width:150px;}
+#intro03{width:22%;position:fixed; top: 42%;margin-left:15%;min-width:150px;font-size:2.1em;}
+
+#intro4{width:20%;position:fixed; top: 70%;margin-left:35%;min-width:150px;}
+#intro04{width:22%;position:fixed; top: 75%;margin-left:10%;min-width:150px;font-size:1.7em;}
+
+#i2a{margin-top:0.5em;}		
+#i2b{}	
+#i2c{}			
+#i2d{}
+#i2e{margin-top:0.8em;}
+
+
+/*Pages de chapitre*/
+.titreChap h2{font-size:5em;text-align:center;margin-top:200px;cursor:pointer;color:lightgrey;}
+.titreChap h3{text-align:center;cursor:pointer;font-size:3.2em;}
+
+/*Chapitre 2*/
+#chap2_1{  background: url(img/disrepair-chap2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+
+/*Chapitre 3*/
+
+#chap3_titre{font-size:2.6em;}
+#chap3_contenu{margin-top:5%;font-size:1em;}
+.chap3_img{border:1px solid black; min-height:300px;}
+.chap3_page{min-height:400px;}
+#chap3_contenu p{padding-top: 20px;}
+
+#chap3_img1{background-image:url("img/chap3.png");}
+#chap3_img2{background-image:url("img/chap3-2.png");}
+#chap3_img3{background-image:url("img/chap3-3.png");}
+#chap3_img4{background-image:url("img/chap3-4.png");}
+#chap3_img5{background-image:url("img/chap3-5.png");}
+#chap3_img6{background-image:url("img/chap3-6.png");}
+#chap3_img7{background-image:url("img/chap3-7.png");}
+#chap3_img8{background-image:url("img/chap3-8.png");}
+#chap3_img9{background-image:url("img/chap3-9.png");}
+
+/* Inform */
+
+#fictionInteractive{display:none;height:100%;}
+#inform{height:80%;}
+.command{text-transform:none;}
+#playbegins{margin-top:-60px;}
+#IFA{visibility:hidden;height:0;}
+#parchment{overflow-y:auto;overflow-x:hidden;height:700px;width:50%;border:none;}
+
+/* end */
+
+#fin{margin-top:50px;cursor:pointer;position:fixed;}
+#fin p{font-size:2em;}
+
+/* Media queries */
+@media screen and (max-width: 991px){
+
+.vide{display:none;}
+
+}
+
+
+@media screen and (max-width: 768px){
+
+.svide{display:none;}
+
+}
+
+
+
+

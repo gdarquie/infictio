@@ -1,0 +1,10 @@
+infictio nécessite un serveur Apache pour être lu (fichiers PHP).
+
+Installer Infictio :
+- configurer la connexion bdd avec le fichier editeur/php/connexion.php
+- créer une table avec attributs :
+- changer le nom de la table dans index.php, save.php et interface.php
+
+To do :
+-Séparer les fonctions dans un fichier function.js
+-Documenter les fonctions
