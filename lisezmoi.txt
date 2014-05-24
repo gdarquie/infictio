@@ -7,4 +7,5 @@ Installer Infictio :
 
 To do :
 -Séparer les fonctions dans un fichier function.js
+-Adopter MVC
 -Documenter les fonctions
