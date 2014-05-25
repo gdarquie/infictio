@@ -44,7 +44,7 @@ $validModif = 0;
 if (isset ($_POST["modifier"]))
 	{
 
-		$req = $bdd->prepare('SELECT * FROM dictature WHERE id = ?');
+		$req = $bdd->prepare('SELECT * FROM infictio WHERE id = ?');
 		$req->execute(array($_POST["modifier"]));
 
 		while ($donnees = $req->fetch())
@@ -81,7 +81,7 @@ else{
 	                if (isset ($_POST["modifier"]))
 	                	{
 
-	                		$req = $bdd->prepare('SELECT * FROM dictature WHERE id = ?');
+	                		$req = $bdd->prepare('SELECT * FROM infictio WHERE id = ?');
 	                		$req->execute(array($_POST["modifier"]));
 
 	                		while ($donnees = $req->fetch()){ 
@@ -92,7 +92,7 @@ else{
 	                	}
 	                else if (isset ($_POST["supprimer"]))
 	               		{
-	                		$req = $bdd->prepare('DELETE FROM dictature WHERE id = ?');
+	                		$req = $bdd->prepare('DELETE FROM infictio WHERE id = ?');
 							$req->execute(array($_POST["supprimer"]));
 	                		
 	                	}
@@ -121,7 +121,7 @@ else{
 		<section class='fragments'>
 		<?php
 		$i=0;
-		$reponse = $bdd->query('SELECT * FROM dictature ORDER BY id DESC');
+		$reponse = $bdd->query('SELECT * FROM infictio ORDER BY id DESC');
 
 // ------------------------------------------------
 // ------------------------------------------------

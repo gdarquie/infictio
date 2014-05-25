@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Serveur: localhost
--- Généré le : Dim 25 Mai 2014 à 12:58
+-- Généré le : Dim 25 Mai 2014 à 13:41
 -- Version du serveur: 5.1.44
 -- Version de PHP: 5.3.2
 
@@ -33,9 +33,12 @@ CREATE TABLE `infictio` (
   `date_modif` datetime NOT NULL,
   `langue` varchar(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
 -- Contenu de la table `infictio`
 --
 
+INSERT INTO `infictio` VALUES(1, 'frag1', 'Mon premier texte	                	            ', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'fr');
+INSERT INTO `infictio` VALUES(2, 'frag2', 'La suite du texte.	                	            ', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'fr');
+INSERT INTO `infictio` VALUES(3, 'depart', 'Ici une citation que nous choisirons	                	            ', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'fr');
