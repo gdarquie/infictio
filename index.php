@@ -39,15 +39,18 @@
 		
 	<div class='col-md-9 col-xs-12 tlt' id='titreAccueil'>
 		<div id='imageAccueil'></div>
-		<a  href='#' onclick='lire("frag1")'><h1 data-out-effect="pulse" data-out-shuffle="true">la faute</h1></a>	
+		<a  href='#' onclick='lire("frag1")'><h1 data-out-effect="pulse" data-out-shuffle="true">Nom du récit</h1></a>	
 		<div id='genre' class="cache">
 			<p id='soustitre' class='fr'>Récit interactif</p>
 		</div>
-		<div id='auteurs' class="cache"><div>Marine Huynh</div><div>Gaétan Darquié</div></div>
+		<div id='auteurs' class="cache"><div>Auteur 1</div><div>Auteur 2</div></div>
 	
 	</div>
 	
 	<div class='col-md-3 fr' id='depart'>
+
+		<h3>Partie dédiée</h3>
+		<p>Pour un texte complémentaire qui disparait sur des écrans small ou extra-small.</p>
 	</div>
 	
 	
@@ -58,7 +61,7 @@
 <div id='mplayer'></div>
 
 <footer class='cache'>
-		<p>sanstitre &copy; 2014 | V0.0  09/05/14 | musique <span id='musicOnOff' onclick='stoplamousique();' class='slien'>on</span> | <a href='english.php' class='slien' id="langue">anglais</a> | <a href='index.php' class="slien">accueil</a> | <span class='slien' onclick='chapitre("_chapitre");whiteMe(_black);'>chap1</span> | <span class='slien' onclick='chapitre("_chapitre2");changeMusic(_musique2);whiteMe(_black);'>chap2</span> | <span class='slien' onclick='chapitre("_chapitre3");whiteMe(_black);'>chap3</span> | <span class='slien' onclick='chapitre("_chapitre4");whiteMe(_black);'>chap4</span> | <span class='slien' onclick='chap4Out();chapitre("_ccl");changeMusic(_musique3);whiteMe(_black);'>ccl</span></p>
+		<p>sanstitre &copy; 2014 | V0.0  24/05/14 | <a href='https://github.com/gdarquie/infictio'>infictio V0.2</a> | musique <span id='musicOnOff' onclick='stoplamousique();' class='slien'>on</span> | <a href='english.php' class='slien' id="langue">anglais</a> | <a href='#' class="slien">accueil</a> | <span class='slien' onclick='chapitre("_chapitre");whiteMe(_black);'>chap1</span> | <span class='slien' onclick='chapitre("_chapitre2");changeMusic(_musique2);whiteMe(_black);'>chap2</span> | <span class='slien' onclick='chapitre("_chapitre3");whiteMe(_black);'>chap3</span> | <span class='slien' onclick='chapitre("_chapitre4");whiteMe(_black);'>chap4</span> | <span class='slien' onclick='chap4Out();chapitre("_ccl");changeMusic(_musique3);whiteMe(_black);'>ccl</span></p>
 		<!-- gaotian was here -hello guys !- -->
 </footer>
 
