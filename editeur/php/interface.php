@@ -7,7 +7,7 @@ include("connexion.php");
 //récupération des données de la bdd du côté serveur
 
 $i=0;
-$reponse = $bdd->query('SELECT * FROM infictio ORDER BY id DESC');
+$reponse = $bdd->query('SELECT * FROM dictature ORDER BY id DESC');
 
 while ($donnees = $reponse->fetch())
 	{

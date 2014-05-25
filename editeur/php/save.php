@@ -6,7 +6,7 @@ $exist=0;
 
 if ( $_POST['billet_titre']!= null AND $_POST['editor1']!= null)
 {
-	$reponse = $bdd->query('SELECT * FROM infictio ORDER BY id DESC');
+	$reponse = $bdd->query('SELECT * FROM dictature ORDER BY id DESC');
 
 	while ($donnees = $reponse->fetch())
 		{
@@ -20,7 +20,7 @@ if ( $_POST['billet_titre']!= null AND $_POST['editor1']!= null)
 		echo "<div class='notification'>Modification effectuée</div>";
 		echo $donnees['nom']; // ne récupère pas les variables
 
-		$req = $bdd->prepare('UPDATE infictio SET nom = :nv_nom, texte = :nv_texte WHERE id = :id');
+		$req = $bdd->prepare('UPDATE dictature SET nom = :nv_nom, texte = :nv_texte WHERE id = :id');
 		$req->execute(array(
 			'nv_nom' => $_POST['billet_titre'],
 			'nv_texte' => $_POST['editor1'],
@@ -35,7 +35,7 @@ if ( $_POST['billet_titre']!= null AND $_POST['editor1']!= null)
 	}
 
 	else {
-		$req = $bdd->prepare('INSERT INTO infictio (nom, texte, langue) VALUES(?, ?, ?)');
+		$req = $bdd->prepare('INSERT INTO dictature (nom, texte, langue) VALUES(?, ?, ?)');
 		$req->execute(array($_POST['billet_titre'], $_POST['editor1'], 'fr'));
 	}
 
