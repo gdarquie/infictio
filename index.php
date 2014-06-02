@@ -4,7 +4,7 @@
 <html lang='fr'>
 
 <head>
-	<title>dis(re)pair</title>
+	<title>[titre]</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">	
@@ -23,7 +23,6 @@
 		#depart{font-size: 0.9em;font-style: none;}
 		#auteurs{font-family: 'Open Sans', 'sans-serif';}
 
-			
 	</style>
 	
 </head>
@@ -49,8 +48,6 @@
 	
 	<div class='col-md-3 fr' id='depart'>
 
-		<h3>Partie dédiée</h3>
-		<p>Pour un texte complémentaire qui disparait sur des écrans small ou extra-small.</p>
 	</div>
 	
 	
@@ -603,6 +600,27 @@ poeme();
 
 //lancer la musique un peu après le chargement
 delayMusic(2000);
+
+
+//----------------------------------------------
+//----------------------------------------------
+//----------------Utilisateur-------------------
+//----------------------------------------------
+//----------------------------------------------
+
+function lettreALettre(x, y)
+{
+	$('#page').empty();
+	$("body").css('color', 'black'); //pour éviter que le texte s'affiche en blanc
+
+	var _frag = getFragmentByTitre(x);
+
+	$('#page').html(_frag);
+
+	lettres(y);
+	ligne(y);
+	
+}
 
 </script>
 <!-- <script type="text/javascript" src="js/function.js"></script> -->
