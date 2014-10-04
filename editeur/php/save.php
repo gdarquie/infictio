@@ -4,7 +4,7 @@
 
 $exist=0;
 
-if ( $_POST['billet_titre']!= null AND $_POST['editor1']!= null)
+if (isset($_POST['billet_titre']) AND isset($_POST['editor1']) AND $_POST['billet_titre']!= null AND $_POST['editor1']!= null)
 {
 	$reponse = $bdd->query('SELECT * FROM infictio ORDER BY id DESC');
 
