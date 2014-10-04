@@ -18,3 +18,15 @@ To do :
 -Séparer les fonctions dans un fichier function.js
 -Adopter MVC
 -Documenter les fonctions
+
+
+---
+Pour la prochaine version - intégrer Slime PHP et reprendre avec des fonctions documentées | 
+Commencer par créer les adresses sur Slim.php, ensuite voir commment intégrer des comptes utilisateurs/ 
+aller vers un webservice
+Un utilisateur peut créer un compte et créer un projet - un projet par utilisateur?
+
+Reprendre à zéro infictio.
+commencer avec slim.php 
+un compte user/mdp / créer quelque chose de simple d'abord
+puis intégrer l'application infictio à proprement parler avec séparation du js et du PHP
